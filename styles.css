@@ -1,0 +1,64 @@
+@font-face {
+    font-family: Hacked;
+    src: url(https://hackedfont.com/HACKED.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Hacked', monospace;
+  color: black;
+}
+
+main .form-bg {
+  background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/a2f7c9d8-a913-4273-847f-705be41395df/da6cgrv-8a5163be-c552-4c13-af14-c3cce6029e63.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvYTJmN2M5ZDgtYTkxMy00MjczLTg0N2YtNzA1YmU0MTM5NWRmXC9kYTZjZ3J2LThhNTE2M2JlLWM1NTItNGMxMy1hZjE0LWMzY2NlNjAyOWU2My5naWYifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.-kZjYPpvS-WvtQrIJIA81hg4RvcJ-FjMiOjifoGOoy8");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 2rem;
+  min-height: 100vh;
+}
+
+main .form {
+	margin: auto;
+  padding: 2rem;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.6);
+ 
+  width: 50%;
+  max-width: 540px;
+  min-width: 275px;
+  overflow: hidden;
+}
+
+main .form h1.form-heading {
+  display: block;
+  font-size: 2rem;
+  text-align: center;
+  width: 100%;
+  padding: 1rem;
+}
+
+main .form label, main .form input, main .form select {
+  display: block;
+  padding: 0.25rem;
+  margin: 0.25rem auto;
+  outline: none;
+  width: 100%;
+}
+
+main .form button, main .form input[type="reset"] {
+	width: 100%;
+  margin: 0.5rem auto;
+  outline: none;
+  border: none;
+  display: inline-block;
+  padding: 0.5rem;
+  background-color: rgb(255, 58, 58);
+}
+
+main .form button:hover, main .form input[type="reset"]:hover {
+  background-color: rgb(255, 56, 56);
+}
